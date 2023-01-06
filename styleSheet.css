@@ -1,0 +1,178 @@
+* {   padding: 0;   margin: 0;}
+  h1 {
+    font-family: Garamond, Georgia, 'Times New Roman', serif;
+  }
+
+  h2 {
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+  }
+
+  p{
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+    vertical-align: middle;
+    color: #F9F5FF;
+    font-size: 110%;
+  }
+
+  body{
+    background-color: #F9F5FF;
+  }
+
+  .navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    
+    top: 0;
+    /*float:right;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F9F5FF;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #0E1C36;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+    font-size: 120%;
+  }
+
+  .navbar a:hover{
+    color: #437C90;
+  }
+  
+  .navbar a.active {
+    color: #437C90;
+  }
+
+  @media screen and (max-width: 750px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: centre;
+    }
+  }
+
+  .container {
+    display: flex;
+  }
+
+  div.header {
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    top:0;
+  }
+
+  .logo {
+    background-color:  #F9F5FF;    
+    text-align: center;
+    color: #437C90;
+    margin: 0px;
+    padding: 5%, 4%;
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer{
+    flex: 1 1 auto;
+    background-color:  #437C90;    
+    text-align: center;
+    color: #F9F5FF;
+    margin: 0px;
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 2%;
+    bottom: 0;
+  }
+
+  .title{
+    background-color:  #F9F5FF;
+    color: #0E1C36;
+    margin: 0px;
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+
+  }
+
+  .middleAlign{
+    background-color:  #6c5d9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blueDiv{
+    background-color:  #437C90; 
+    color: #F9F5FF;
+    margin: 0px;
+    padding: 7% 5%;
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .whiteDiv{
+    background-color:  #F9F5FF;
+    color: #437C90;
+    margin: 0px;
+    padding: 7% 5%;
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .purpleDiv{
+    background-color:  #6c5d9c;
+    color: #F9F5FF;
+    margin: 0px;
+    padding: 7% 5%;
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .navyDiv{
+    background-color:  #0E1C36;
+    color: #F9F5FF;
+    margin: 0px;
+    padding: 7% 5%;
+    font-family:  Garamond, Georgia, 'Times New Roman', serif;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .pictureDiv{
+    margin: 0px;
+    padding: 5%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .container {
+    display: flex;
+  }
+
+  .gap{
+    width: 100%;
+    background-color: #0E1C36;
+    padding: 0.125%;
+    margin: auto;
+  }
